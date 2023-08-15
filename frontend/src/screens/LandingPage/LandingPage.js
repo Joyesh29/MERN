@@ -18,7 +18,7 @@ const LandingPage = () => {
             </div>
             <div className="buttonConatiner">
               <a href="'/login">
-                <button size="lg" className="landingbutton">
+                <button size="lg" className="landingbutton mr-3">
                   Login
                 </button>
               </a>
