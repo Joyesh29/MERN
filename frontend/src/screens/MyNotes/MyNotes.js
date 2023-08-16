@@ -60,10 +60,6 @@ const MyNotes = () => {
               </Card.Body>
             </Accordion.Collapse>
           </Card>
-          <Accordion.Toggle as={Card.Text} variant="link" eventKey="1">
-            {note.title}
-          </Accordion.Toggle>
-          <Accordion.Collapse eventKey="1">test</Accordion.Collapse>
         </Accordion>
       ))}
     </MainScreen>
